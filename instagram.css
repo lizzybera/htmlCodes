@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 600px;
+    width: 400px;
+}
+
+.h{
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.form{
+    height: 600px;
+    width: 400px;
+    /* background-color: green; */
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+h1{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+input{
+    width: 310px;
+    height: 35px;
+    background-color: rgb(227, 227, 251);
+    margin-top: 5px;
+    border: solid rgb(207, 210, 247) 1px;
+    border-radius: 3px;
+}
+
+.button{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: solid blue 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.OR{
+    width: 310px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+hr{
+    width: 200px;
+    height: 1px;
+    background-color: black;
+}
+
+.fb{
+    width: 310px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fbLogo{
+    width: 70px;
+    height: 40px;
+    /* margin-left: 60px; */
+}
+
+.p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.first{
+    /* background-color: blue; */
+    border: solid black 1px;
+    height: 370px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 40px;
+    /* margin-bottom: 20px; */
+}
+
+.second{
+    /* background-color: brown; */
+    border: solid black 1px;
+    height: 70px;
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav{
+    color: blue;
+    font-weight: bold;
+}
+
+.logo{
+    margin-top: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80px;
+    width: 400px;
+}
+.mainlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    margin-top: 20px;   
+}
+
+.ll{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* height: 50px;
+    width: 175px; */
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.ll2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* height: 50px;
+    width: 175px; */
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    /* border-radius: 10px; */
+}
+
+.google{
+    font-size: 20px
+}
+
+.btnImg{
+    height: 40px;
+    width: 45px;
+}
+
+.get{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
